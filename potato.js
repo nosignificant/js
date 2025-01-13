@@ -1,3 +1,8 @@
 $(document).ready(function(){
-    $("#menu2 li").css("color", "#f00");
+   const $gae = $("#gae");
+   $("#btnStart").click(function(){
+    $gae.animate({
+        left: "480px"
+    }, 100);
+   })
 })
